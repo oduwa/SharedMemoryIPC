@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/oeo/Desktop/IPC/Server/IPCServer.c
+stdio.h
+-
+unistd.h
+-
+sys/types.h
+-
+sys/ipc.h
+-
+sys/shm.h
+-
+
